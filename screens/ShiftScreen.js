@@ -64,7 +64,7 @@ export default function ShiftScreen({ navigation }) {
         <Text style={{color: '#fff', fontWeight: '700'}}>Book Shift</Text>
       </TouchableOpacity>
 
-      <FloatingBar navigation={navigation} />
+      <FloatingBar navigation={navigation} /> 
     </View>
   );
 }
