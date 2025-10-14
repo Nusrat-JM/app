@@ -4,6 +4,8 @@ import theme from '../lib/theme';
 import FloatingBar from '../components/FloatingBar';
 import { getBookingStats } from '../lib/bookings';
 
+//this will show the overall usage of a user
+
 export default function DetailsScreen({ navigation }) {
   const [stats, setStats] = useState({ totalSpent: 0, totalRides: 0, vehicleUsage: {} });
 
