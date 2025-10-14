@@ -1,0 +1,13 @@
+[
+    {
+      "id": "bus_1",
+      "name": "Route 1",
+      "color": "#3b82f6",
+      "coordinates": [
+        { "latitude": 23.792, "longitude": 90.404 },
+        { "latitude": 23.788, "longitude": 90.392 },
+        { "latitude": 23.784, "longitude": 90.381 }
+      ]
+    }
+  ]
+  
