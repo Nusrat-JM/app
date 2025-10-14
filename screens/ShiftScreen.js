@@ -34,7 +34,7 @@ export default function ShiftScreen({ navigation }) {
       Alert.alert('Booked', `Shift booked for ${estimate.price}`);
       navigation.navigate('Home');
     } else {
-      Alert.alert('Error', 'Failed to save booking');
+      Alert.alert('Error', 'Failed to save booking');//faild logic
     }
   };
 
@@ -64,7 +64,7 @@ export default function ShiftScreen({ navigation }) {
         <Text style={{color: '#fff', fontWeight: '700'}}>Book Shift</Text>
       </TouchableOpacity>
 
-      <FloatingBar navigation={navigation} />
+      <FloatingBar navigation={navigation} /> 
     </View>
   );
 }
