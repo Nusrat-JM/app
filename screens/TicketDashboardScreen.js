@@ -333,7 +333,7 @@ const styles = StyleSheet.create({
     borderColor: "rgba(15,23,42,0.06)",
     backgroundColor: "rgba(255,255,255,0.65)",
   },
-  recentTitle: { fontWeight: "900", color: "#0f172a", flex: 1 },
+  recentTitle: { fontWeight: "900", color: "#0f172a", flex: 1 , letterSpacing: 0.2},
   recentSub: { color: "#334155" },
   recentAmount: { color: "#0f172a", fontWeight: "900", marginTop: 2 },
   recentIcon: { width: 24, height: 24, borderRadius: 8, backgroundColor: "#ffffffcc", alignItems: "center", justifyContent: "center", marginRight: 8, borderWidth: 1, borderColor: "rgba(15,23,42,0.06)" },
