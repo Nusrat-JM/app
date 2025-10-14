@@ -34,7 +34,7 @@ export default function ShiftScreen({ navigation }) {
       Alert.alert('Booked', `Shift booked for ${estimate.price}`);
       navigation.navigate('Home');
     } else {
-      Alert.alert('Error', 'Failed to save booking');
+      Alert.alert('Error', 'Failed to save booking');//faild logic
     }
   };
 
