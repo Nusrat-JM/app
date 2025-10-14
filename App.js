@@ -4,7 +4,6 @@ import 'react-native-reanimated';
 
 import SeatSelectionScreen from './screens/SeatSelectionScreen';
 import ShortestPathScreen from './screens/ShortestPathScreen'; 
-//import TicketBookingScreen from './screens/';
 import React from "react";
 import { StatusBar } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
@@ -56,7 +55,7 @@ import ShiftDashboardScreen from './screens/ShiftDashboardScreen';
 import PackageDashboardScreen from './screens/PackageDashboardScreen';
 import RideTrackerScreen from "./screens/RideTrackerScreen";
 
-// ⬇️ Ticket flow screens (DEFAULT imports, no “Screen” suffix)
+
 import TicketBooking from './screens/TicketBooking';
 import TicketSearch from './screens/TicketSearch';
 import TicketResults from './screens/TicketResults';
