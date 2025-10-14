@@ -34,6 +34,8 @@ const VEHICLE_ICON = {
   BIKE:  { set: "MaterialCommunityIcons", name: "motorbike" }
 };
 
+//this is for the route
+
 export default function RideSummaryScreen({ route, navigation }) {
   const { origin, destination } = route.params;
   const [coords, setCoords] = useState([]);
@@ -170,6 +172,9 @@ export default function RideSummaryScreen({ route, navigation }) {
     </View>
   );
 }
+
+//page design here !!!
+//its the design od 
 
 const styles = StyleSheet.create({
   sheet:{
