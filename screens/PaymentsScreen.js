@@ -25,6 +25,9 @@ import {
  * - currencySymbol: string (default "$")
  */
 
+// as its dummy so i have already given some values for all users
+
+
 export default function PaymentScreen({
   initialBalance = 120.0,
   tokenBalance = 250,
@@ -228,7 +231,7 @@ export default function PaymentScreen({
             </TouchableOpacity>
           </View>
 
-          {/* Token input */}
+          {/* Token input(we are giving free token as user will click and get it) */}
           <View style={styles.tokenInputRow}>
             <TextInput
               keyboardType="number-pad"
