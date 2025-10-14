@@ -23,6 +23,8 @@ function HoverCard({ children, onPress, style }) {
   );
 }
 
+// as here we used some dummy values thats why in the design we added some of the values here for the ticket
+
 export default function TicketBooking({ navigation }) {
   const [now, setNow] = useState(new Date());
   useEffect(() => {
