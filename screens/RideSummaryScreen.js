@@ -174,6 +174,7 @@ export default function RideSummaryScreen({ route, navigation }) {
 }
 
 //page design here !!!
+//its the design od 
 
 const styles = StyleSheet.create({
   sheet:{
